@@ -21,6 +21,7 @@ body {
     flex-wrap: wrap;
     border: 0.1rem solid black;
     margin-top: 10rem;
+    background-color: rgba(255, 0, 0, 0.21);
 }
 
 h1 {
@@ -60,6 +61,7 @@ input[type=submit] {
     justify-content: center;
     flex-wrap: wrap;align-items: center;
     border: 0.1rem solid black;
+    background-color: rgba(0, 0, 255, 0.13);
 }
 
 #previous {
