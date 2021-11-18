@@ -19,12 +19,15 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border: 0.1rem solid black;
+    margin-top: 10rem;
 }
 
 h1 {
     flex-basis: 100%;
     text-align: center;
     font-size: 5rem;
+    padding-bottom: 5rem;
 }
 
 h1 + p {
@@ -34,7 +37,7 @@ h1 + p {
 #container2 {
     display: flex;
     justify-content: center;
-    padding: 25rem;
+    padding: 15rem;
 }
 
 input[type=text] {
@@ -49,24 +52,38 @@ input[type=submit] {
     border-radius: 0 5rem 5rem 0;
     box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.31);
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 #container3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;align-items: center;
+    border: 0.1rem solid black;
 }
 
 #previous {
     font-size: 2.5rem;
-    flex-basis: 60%;
+    flex-basis: 25%;
 }
 
 #guess {
-    flex-basis: 60%;
+    flex-basis: 25%;
+    font-size: 2.5rem;
+}
+
+#used {
+    flex-basis: 50%;
     font-size: 2.5rem;
 }
 
 #guess_last {
     color: white;
+}
+
+#again {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    width: 25rem;
+    height: 5rem;
 }
