@@ -1,3 +1,7 @@
+/*
+    Variable declaration
+ */
+
 let gagner = Math.floor(Math.random() * 100 +1);
 let number = document.getElementById('number');
 let random = document.getElementById('try');
@@ -7,6 +11,9 @@ let used = document.getElementById('used');
 let gg = document.getElementById('gg');
 let chance = 9;
 
+/*
+    Function if it's winning, too small or too big
+ */
 
 function myClick() {
     if (chance > -1) {
@@ -40,6 +47,10 @@ function myClick() {
     }
 }
 
+/*
+    Function to start over
+ */
+
 function supp() {
     number.value = null;
     used.innerHTML = null;
@@ -47,9 +58,11 @@ function supp() {
     gg.innerHTML = ' ';
 }
 
+/*
+    Events
+ */
 
 random.addEventListener("click", myClick);
-
 again.addEventListener("click", supp);
 
 
