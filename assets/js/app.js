@@ -2,7 +2,7 @@
     Variable declaration
  */
 
-let gagner = Math.floor(Math.random() * 100 +1);
+let gagner = Math.floor(Math.random() * 100 + 1);
 let number = document.getElementById('number');
 let random = document.getElementById('try');
 let last = document.getElementById('guess_last');
